@@ -1,7 +1,7 @@
 import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { SiMongodb, SiPrisma, SiSocketdotio } from 'react-icons/si'
+import { SiMongodb, SiPrisma, SiSocketdotio, SiTypescript } from 'react-icons/si'
 import { DiRedis } from 'react-icons/di'
 import { FaNodeJs } from 'react-icons/fa'
 import { FiFramer } from 'react-icons/fi'
@@ -49,6 +49,13 @@ function Technologies() {
                     animate="animate"
                     className='rounded-2xl border-4 border-neutral-800 p-4'>
                     <TbBrandNextjs className='text-7xl' />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(3)}
+                    initial="initial"
+                    animate="animate"
+                    className='rounded-2xl border-4 border-neutral-800 p-4'>
+                    <SiTypescript className='text-7xl text-blue-400' />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(5)}
