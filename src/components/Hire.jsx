@@ -40,7 +40,7 @@ const Hire = () => {
         <motion.form
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 0.5 }}
             animate={{ opacity: 1, y: 0 }}
             onSubmit={sendEmail}
             className="w-full max-w-md mx-auto bg-transparent rounded shadow p-8"

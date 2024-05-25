@@ -2,9 +2,9 @@ import ecomproject from "../assets/projects/ecomproject.jpg";
 import portfolioproject from "../assets/projects/portfolioproject.jpg";
 import chatproject from "../assets/projects/chatproject.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate Web developer and Data Structure & Algorithm enthusiast with a strong understanding of DBMS and OOPs concepts. As a freelancer, I specialize in crafting scalable web applications using front-end technologies like React and Next.js, and back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my skills to deliver innovative solutions that enhance business growth and provide exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly websites. Currently persuing Computer Science & Engineering in Jadavpur University , I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, Prisma and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly websites. Currently in my final year of Computer Science and Engineering at Jadavpur University , I have worked with a variety of technologies, including React, Next.js, Node.js, Express, SocketIO, Firebase, MySQL, Prisma and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 // export const EXPERIENCES = [
 //   {
@@ -36,6 +36,23 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 //     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
 //   },
 // ];
+export const CODING = [
+  {
+    site: "Codeforces",
+    rating: "Specialist",
+    description: `Solved more than 200 problems and currently 1400 rated`,
+  },
+  {
+    site: "Leetcode",
+    rating: "Knight",
+    description: `Solved more than 500 problems and currently 2006 rated`,
+  },
+  {
+    site: "Others",
+    rating: "",
+    description: `Strong grasp over Data Structure & Algorithm, OOPS, DBMS, Computer Network concepts`,
+  }
+];
 
 export const PROJECTS = [
   {
