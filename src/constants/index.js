@@ -56,12 +56,12 @@ export const CODING = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: ecomproject,
-    link: "#",
+    title: "Smart Health Monitoring System",
+    image: chatproject,
+    link:"https://github.com/null-Character7/Chat-App",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["Next", "Tailwind", "MaterialUI", "Express", "SocketIO", "MongoDB"],
+      "Healthcare app for patient and doctor to track appointment and prescription and AI based healthcare recomendation",
+    technologies: ["NextJS", "ShadCN UI", "Tailwind", "Express", "ML", "Postgres", "Prisma","Redis"],
   },
   {
     title: "RealTime Chat Application",
@@ -70,6 +70,22 @@ export const PROJECTS = [
     description:
       "A real-time chat web app that enables instant messaging, group chats, and file sharing with seamless user experience and robust security features and user authentication",
     technologies: ["React", "ShadCN UI", "Tailwind", "Express", "SocketIO", "MongoDB", "Firebase"],
+  },
+  {
+    title: "Soundscape",
+    image: chatproject,
+    link:"https://github.com/null-Character7/Chat-App",
+    description:
+      "Collaborative music platform, create space, share with others and build a interactive music streaming platform",
+    technologies: ["NextJS", "ShadCN UI", "Tailwind", "Express", "Websocket", "Postgres", "Prisma", "Acternity UI", "OAuth"],
+  },
+  {
+    title: "Flight Booking Website",
+    image: chatproject,
+    link:"https://github.com/null-Character7/Chat-App",
+    description:
+      "End to end flight booking website, with realtime fligh check from source to destination, seat selection and ticket booking",
+    technologies: ["NextJS", "Tailwind", "Express", "MySQL", "SpringBoot", "RapidAPI"],
   },
   {
     title: "Portfolio Website",
